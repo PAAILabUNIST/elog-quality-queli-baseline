@@ -1,0 +1,17 @@
+dataset,pattern,file,n_truth,n_flagged,tp,fp,fn,precision,recall,f1
+BPIC11,Form-based,data/bpic11/form_based.csv,1105,145860,1104,144756,1,0.0076,0.9991,0.015
+BPIC11,Collateral,data/bpic11/collateral.csv,572,145772,1,145771,571,0.0,0.0017,0.0
+BPIC11,Synonymous,data/bpic11/synonymous.csv,8217,12124,710,11414,7507,0.0586,0.0864,0.0698
+BPIC11,Homonymous,data/bpic11/homonymous.csv,646,117960,646,117314,0,0.0055,1.0,0.0109
+BPIC15,Form-based,data/bpic15/form_based.csv,1207,35145,1207,33938,0,0.0343,1.0,0.0664
+BPIC15,Collateral,data/bpic15/collateral.csv,486,30432,2,30430,484,0.0001,0.0041,0.0001
+BPIC15,Synonymous,data/bpic15/synonymous.csv,8837,6881,4807,2074,4030,0.6986,0.544,0.6117
+BPIC15,Homonymous,data/bpic15/homonymous.csv,1001,8726,1001,7725,0,0.1147,1.0,0.2058
+Credit,Form-based,data/credit/form_based.csv,4688,4690,4688,2,0,0.9996,1.0,0.9998
+Credit,Collateral,data/credit/collateral.csv,3000,4,2,2,2998,0.5,0.0007,0.0013
+Credit,Synonymous,data/credit/synonymous.csv,5680,6676,1101,5575,4579,0.1649,0.1938,0.1782
+Credit,Homonymous,data/credit/homonymous.csv,2960,13931,2960,10971,0,0.2125,1.0,0.3505
+Pub,Form-based,data/pub/form_based.csv,4830,4832,4830,2,0,0.9996,1.0,0.9998
+Pub,Collateral,data/pub/collateral.csv,3000,6,2,4,2998,0.3333,0.0007,0.0013
+Pub,Synonymous,data/pub/synonymous.csv,5468,26336,2982,23354,2486,0.1132,0.5454,0.1875
+Pub,Homonymous,data/pub/homonymous.csv,3647,2125,2125,0,1522,1.0,0.5827,0.7363

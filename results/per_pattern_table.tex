@@ -1,0 +1,32 @@
+\begin{table}[t]
+  \centering
+  \caption{QUELI detection performance by dataset and imperfection pattern.}
+  \label{tab:queli-per-pattern}
+  \small
+  \setlength{\tabcolsep}{6pt}
+  \begin{tabular}{llrrr}
+    \toprule
+    Dataset & Pattern & Prec. & Rec. & $F_1$ \\
+    \midrule
+    BPIC11 & Form-based & 0.008 & 0.999 & 0.015 \\
+    BPIC11 & Collateral & 0.000 & 0.002 & 0.000 \\
+    BPIC11 & Synonymous & 0.059 & 0.086 & 0.070 \\
+    BPIC11 & Homonymous & 0.005 & 1.000 & 0.011 \\
+    \addlinespace
+    BPIC15 & Form-based & 0.034 & 1.000 & 0.066 \\
+    BPIC15 & Collateral & 0.000 & 0.004 & 0.000 \\
+    BPIC15 & Synonymous & 0.699 & 0.544 & 0.612 \\
+    BPIC15 & Homonymous & 0.115 & 1.000 & 0.206 \\
+    \addlinespace
+    Credit & Form-based & 1.000 & 1.000 & 1.000 \\
+    Credit & Collateral & 0.500 & 0.001 & 0.001 \\
+    Credit & Synonymous & 0.165 & 0.194 & 0.178 \\
+    Credit & Homonymous & 0.212 & 1.000 & 0.350 \\
+    \addlinespace
+    Pub & Form-based & 1.000 & 1.000 & 1.000 \\
+    Pub & Collateral & 0.333 & 0.001 & 0.001 \\
+    Pub & Synonymous & 0.113 & 0.545 & 0.188 \\
+    Pub & Homonymous & 1.000 & 0.583 & 0.736 \\
+    \bottomrule
+  \end{tabular}
+\end{table}
